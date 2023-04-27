@@ -9,35 +9,384 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+       <link rel="apple-touch-icon" href="logo192.png" />
+      <link rel="manifest" href="manifest.json" />
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <script src="./lib/tdvplayer.js?v=1669682096961"></script>
+    <link rel="preload" href="./locale/en.txt?v=1669682096961" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="./script.js?v=1669682096961" as="script"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_0/r/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_0/l/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_0/u/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_0/d/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_0/f/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_0/b/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_1/r/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_1/l/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_1/u/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_1/d/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_1/f/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_1/b/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_2/r/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_2/l/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_2/u/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_2/d/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_2/f/2/0_0.jpg?v=1669682096961" as="image"/>
+	<link rel="preload" href="./media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_2/b/2/0_0.jpg?v=1669682096961" as="image"/>
+	<meta name="description" content="Virtual Tour"/>
+	<meta name="theme-color" content="#FFFFFF"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="./script.js?v=1669682096961"></script>
+    <title>Lobby</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div id="root"></div>  
+      <div id="preloadContainer" class="fill-viewport">
+        <div style="z-index: 4; position: absolute; left: 0%; top: 50%; width: 100.00%; height: 10.00%" >
+          <div style="text-align:left; color:#000; ">
+            <div style="text-align:center;font-size:1.6666666666666663vmin;">
+              <span style="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-size:1.67vmin;font-family:Arial, Helvetica, sans-serif;">
+                Loading virtual tour. Please wait...
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="viewer" class="fill-viewport"></div>
+   
+    
+    <script type="text/javascript">
+        var fn;
+        var ln;
+        var em;
+        var dt;
+        date = new Date();
+        dt = Date();
+        console.log(dt);
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+            function enterLobby(){
+              console.log("lobby")
+            }
+            function enterListenToPeersRoom(){console.log("lobby")} 
+            function enterExploreIndustriesLift(){console.log("industry")}
+            function enterDiscoverDepartmentsLift(){console.log("department")}
+            function enterMeetPartnersLift(){console.log("partners")}
+            function enterBuildInnovationRoom(){console.log("innovation")}
+            function logStats(statsFromThreeD){
+              console.log(statsFromThreeD)
+            }
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+        var tour;
+        var devicesUrl = {"general":"script_general.js?v=1669682096961"};
+
+        (function()
+        {
+            var deviceType = ['general'];
+            if(TDV.PlayerAPI.mobile)
+                deviceType.unshift('mobile');
+            if(TDV.PlayerAPI.device == TDV.PlayerAPI.DEVICE_IPAD)
+                deviceType.unshift('ipad');
+            var url;
+            for(var i=0; i<deviceType.length; ++i) {
+                var d = deviceType[i];
+                if(d in devicesUrl) {
+                    url = devicesUrl[d];
+                    break;
+                }
+            }
+            if(typeof url == "object") {
+                var orient = TDV.PlayerAPI.getOrientation();
+                if(orient in url) {
+                    url = url[orient];
+                }
+            }
+            var link = document.createElement('link');
+            link.rel = 'preload';
+            link.href = url;
+            link.as = 'script';
+            var el = document.getElementsByTagName('script')[0];
+            el.parentNode.insertBefore(link, el);
+        })();
+
+        function loadTour()
+        {
+            if(tour) return;
+
+            if (/AppleWebKit/.test(navigator.userAgent) && /Mobile\/\w+/.test(navigator.userAgent)) {
+                var preloadContainer = document.getElementById('preloadContainer');
+                if(preloadContainer)
+                    document.body.style.backgroundColor = window.getComputedStyle(preloadContainer).backgroundColor;
+            }
+
+            var settings = new TDV.PlayerSettings();
+            settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, './lib/WebVRPolyfill.js?v=1669682096961');
+            settings.set(TDV.PlayerSettings.HLS_URL, './lib/Hls.js?v=1669682096961');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1669682096961');
+
+            tour = new TDV.Tour(settings, devicesUrl);
+            tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
+            tour.bind(TDV.Tour.EVENT_TOUR_LOADED, onVirtualTourLoaded);
+            tour.bind(TDV.Tour.EVENT_TOUR_ENDED, onVirtualTourEnded);
+            tour.load();
+        }
+
+        function pauseTour()
+        {
+            if(!tour)
+                return;
+
+            tour.pause();
+        }
+
+        function resumeTour()
+        {
+            if(!tour)
+                return;
+
+            tour.resume();
+        }
+
+        function onVirtualTourInit()
+        {
+            var updateTexts = function() {
+                document.title = this.trans("tour.name")
+            };
+
+            tour.locManager.bind(TDV.Tour.LocaleManager.EVENT_LOCALE_CHANGED, updateTexts.bind(tour.locManager));
+            
+            if (tour.player.cookiesEnabled)
+                enableCookies();
+            else
+                tour.player.bind('enableCookies', enableCookies);
+        }
+
+        function onVirtualTourLoaded()
+        {
+            disposePreloader();
+        }
+
+        function onVirtualTourEnded()
+        {
+
+        }
+
+        function enableCookies()
+        {
+            
+        }
+
+        function setMediaByIndex(index) {
+            if(!tour)
+                return;
+
+            tour.setMediaByIndex(index);
+        }
+
+        function setMediaByName(name)
+        {
+            if(!tour)
+                return;
+
+            tour.setMediaByName(name);
+        }
+
+        function showPreloader()
+        {
+            var preloadContainer = document.getElementById('preloadContainer');
+            if(preloadContainer != undefined)
+                preloadContainer.style.opacity = 1;
+        }
+
+        function disposePreloader()
+        {
+            var preloadContainer = document.getElementById('preloadContainer');
+            if(preloadContainer == undefined)
+                return;
+
+            var transitionEndName = transitionEndEventName();
+            if(transitionEndName)
+            {
+                preloadContainer.addEventListener(transitionEndName, hide, false);
+                preloadContainer.style.opacity = 0;
+                setTimeout(hide, 500); //Force hide. Some cases the transitionend event isn't dispatched with an iFrame.
+            }
+            else
+            {
+                hide();
+            }
+
+            function hide()
+            {
+                
+                document.body.style.backgroundColor = window.getComputedStyle(preloadContainer).backgroundColor;
+                preloadContainer.style.visibility = 'hidden';
+                preloadContainer.style.display = 'none';
+                var videoList = preloadContainer.getElementsByTagName("video");
+                for(var i=0; i<videoList.length; ++i)
+                {
+                    var video = videoList[i];
+                    video.pause();
+                    while (video.children.length)
+                        video.removeChild(video.children[0]);
+                }
+            }
+
+            function transitionEndEventName () {
+                var el = document.createElement('div');
+                var transitions = {
+                        'transition':'transitionend',
+                        'OTransition':'otransitionend',
+                        'MozTransition':'transitionend',
+                        'WebkitTransition':'webkitTransitionEnd'
+                    };
+
+                var t;
+                for (t in transitions) {
+                    if (el.style[t] !== undefined) {
+                        return transitions[t];
+                    }
+                }
+
+                return undefined;
+            }
+        }
+
+        function onBodyClick(){
+            document.body.removeEventListener("click", onBodyClick);
+            document.body.removeEventListener("touchend", onBodyClick);
+            
+        }
+
+        function onLoad() {
+            
+
+            if (/AppleWebKit/.test(navigator.userAgent) && /Mobile\/\w+/.test(navigator.userAgent))
+            {
+                var onOrientationChange = function()
+                {
+                    document.documentElement.style.height = 'initial';
+                    Array.from(document.querySelectorAll('.fill-viewport')).forEach(function(element)
+                    {
+                        element.classList.toggle('landscape-right', window.orientation == -90);
+                        element.classList.toggle('landscape-left', window.orientation == 90);
+                    });
+                    setTimeout(function()
+                    {
+                        document.documentElement.style.height = '100%';
+                    }, 500);
+                };
+                window.addEventListener('orientationchange', onOrientationChange);
+                onOrientationChange();
+            }
+
+            var params = getParams(location.search.substr(1));
+            if(params.hasOwnProperty("skip-loading"))
+            {
+                loadTour();
+                disposePreloader();
+                return;
+            }
+
+            if (isOVRWeb()){
+                showPreloader();
+                loadTour();
+                return;
+            }
+
+            showPreloader();
+			loadTour();
+        }
+
+        
+
+        function playVideo(video, autoplayMuted, clickComponent) {
+            function isSafariDesktopV11orGreater() {
+                return /^((?!chrome|android|crios|ipad|iphone).)*safari/i.test(navigator.userAgent) && parseFloat(/Version\/([0-9]+\.[0-9]+)/i.exec(navigator.userAgent)[1]) >= 11;
+            }
+
+            function hasAudio (video) {
+                return video.mozHasAudio ||
+                       Boolean(video.webkitAudioDecodedByteCount) ||
+                       Boolean(video.audioTracks && video.audioTracks.length);
+            }
+
+            function detectUserAction() {
+                var component = clickComponent || document.getElementById('preloadContainer');
+                var onVideoClick = function(e) {
+                    if(video.paused) {
+                        video.play();
+                    }
+                    video.muted = false;
+                    if(hasAudio(video))
+                    {
+                        e.stopPropagation();
+                        e.stopImmediatePropagation();
+                        e.preventDefault();
+                    }
+
+                    component.removeEventListener('click', onVideoClick);
+                    component.removeEventListener('touchend', onVideoClick);
+
+                    if(component == clickComponent) {
+                        setComponentVisibility(false);
+                    }
+                };
+                component.addEventListener("click", onVideoClick);
+                component.addEventListener("touchend", onVideoClick);
+            }
+
+            function setComponentVisibility(visible) {
+                clickComponent.style.visibility = visible ? 'visible' : 'hidden';
+            }
+
+            if (isSafariDesktopV11orGreater()) {
+                if(autoplayMuted) {
+                    video.muted = true;
+                    video.play();
+                }
+            } else {
+                var canPlay = true;
+                var promise = video.play();
+                if (promise) {
+                    promise.catch(function() {
+                        if(clickComponent)
+                            setComponentVisibility(true);
+                        canPlay = false;
+                        if(autoplayMuted) {
+                            video.muted = true;
+                            video.play();
+                        }
+                        detectUserAction();
+                    });
+                } else {
+                    canPlay = false;
+                }
+
+                if (!canPlay || video.muted) {
+                    detectUserAction();
+                } else if(clickComponent) {
+                    setComponentVisibility(false);
+                }
+            }
+        }
+
+        function isOVRWeb(){
+            return window.location.hash.substring(1).split('&').indexOf('ovrweb') > -1;
+        }
+
+        function getParams(params) {
+            var queryDict = {}; params.split("&").forEach(function(item) {var k = item.split("=")[0], v = decodeURIComponent(item.split("=")[1]);queryDict[k.toLowerCase()] = v});
+            return queryDict;
+        }
+
+        document.addEventListener('DOMContentLoaded', onLoad);
+    </script>
   </body>
 </html>

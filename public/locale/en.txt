@@ -1,0 +1,85 @@
+#: locale=en
+
+## Action
+
+### URL
+PopupWebFrameBehaviour_C08051EF_D0F0_F4D7_4191_8700DA06F630.url = https://cdnapisec.kaltura.com/p/1921661/sp/192166100/embedIframeJs/uiconf_id/35919811/partner_id/1921661?iframeembed=true&playerId=sapvideo&entry_id=1_7nuifi4o&flashvars[streamerType]=auto
+PopupWebFrameBehaviour_C086C1EA_D0F0_F4D9_41E5_D19CC277070E.url = https://cdnapisec.kaltura.com/p/1921661/sp/192166100/embedIframeJs/uiconf_id/35919811/partner_id/1921661?iframeembed=true&playerId=sapvideo&entry_id=1_svo4z9b6&flashvars[streamerType]=auto
+
+## Hotspot
+
+### Text
+QuadHotspotPanoramaOverlayTextImage_C09491CF_D0F0_F4D7_4198_38A9E067B730.text = CLIENTS
+HotspotPanoramaOverlayTextImage_C0AAB1C9_D0F0_F4DB_41E7_8FFE4D21C8A2.text = DECOUVRIR PAR
+HotspotPanoramaOverlayTextImage_C09491CC_D0F0_F4D9_41E5_7084CEA57A36.text = DEPARTEMENT
+QuadHotspotPanoramaOverlayTextImage_C09781CD_D0F0_F4DB_41AB_0F999B4C609F.text = ECOUTER  NOS
+QuadHotspotPanoramaOverlayTextImage_C097B1D2_D0F0_F4C8_41B2_2C2444C9873C.text = ENSEMBLE
+QuadHotspotPanoramaOverlayTextImage_C09451CF_D0F0_F4D7_41E3_31B7C15CBFDA.text = EXPLORER PAR
+QuadHotspotPanoramaOverlayTextImage_C09461D1_D0F0_F4C8_41B7_E82C5180B5B7.text = INDUSTRIE
+QuadHotspotPanoramaOverlayTextImage_C097E1D2_D0F0_F4C8_41D4_BE4CC28CC282.text = INNOVONS
+QuadHotspotPanoramaOverlayTextImage_C09741D3_D0F0_F4C8_41A9_A794EBCFC464.text = PARTENAIRES
+QuadHotspotPanoramaOverlayTextImage_C097D1D1_D0F0_F4C8_41E0_F0A4D991B5FA.text = RENCONTRER NOS
+
+### Tooltip
+HotspotPanoramaOverlayArea_C09891E4_D0F0_F4C9_41E2_0EBCC6813402.toolTip = Découvrir par département
+HotspotPanoramaOverlayArea_C09BA1E7_D0F0_F4D7_41DC_863CF4D601B4.toolTip = Ecouter Nos Clients
+HotspotPanoramaOverlayArea_C09871E6_D0F0_F4C9_41BC_9BB2F3E042A4.toolTip = Explorer par industrie
+HotspotPanoramaOverlayArea_C09BD1E7_D0F0_F4D7_41E6_4B27FECFF2E0.toolTip = Innovons Ensemble
+overlay_C09801E0_D0F0_F4C9_41D2_9775A5F55684.toolTip = Lecture/Pause
+HotspotPanoramaOverlayArea_C09931E3_D0F0_F4CF_41D8_3525814D129F.toolTip = Rencontrer nos partenaires
+HotspotPanoramaOverlayArea_C09901DD_D0F0_F4FB_416F_91C293A177F0.toolTip = Se diriger vers les ascenseurs
+HotspotPanoramaOverlayArea_C09781D6_D0F0_F4C8_41DC_419194BECCF0.toolTip = Se diriger vers les ascenseurs
+
+## Media
+
+### Image
+imlevel_C20E8539_D0F1_5DBB_41DD_8A31460971D6.url = media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_HS_04vfmlfg_en.png
+imlevel_C20324AF_D0F1_5357_41E1_F6DD978889D6.url = media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_HS_0o6gwlpl_en.png
+imlevel_C20224E6_D0F1_5CC9_41C0_69352F40436E.url = media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_HS_37cw7suz_en.png
+imlevel_C205C48D_D0F1_5358_41BF_0544A41ED3B5.url = media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_HS_8ks5tfxh_en.png
+imlevel_C20F951C_D0F1_5D79_41DB_19B6CAB3A787.url = media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_HS_dbuf1tyu_en.png
+imlevel_C20D8578_D0F1_5DB9_41E5_DEDDC1571087.url = media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_HS_fvr1v7qr_en.png
+imlevel_C2064471_D0F1_53CB_41E9_95CC424C086C.url = media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_HS_gsgmq4yd_en.png
+imlevel_C2002501_D0F1_5D4A_41C0_FC59052817F7.url = media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_HS_lsyz24oi_en.png
+imlevel_C20E9559_D0F1_5DFB_41E7_D2015700F908.url = media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_HS_m90jmkt1_en.png
+imlevel_C20324C6_D0F1_5CC9_41AF_02A979852CD3.url = media/panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB_HS_q52th45v_en.png
+
+### Title
+panorama_DD71B47F_D0F3_B3B7_41E5_21D88F9CA4CB.label = 1 LOBBY SUMER MORNING
+video_99307915_C34F_D24B_41D0_269F141116A7.label = Assia Lobby Green Screen
+
+### Video
+videolevel_281C49AA_1C70_D867_4140_A2EA63FE374A.url = media/video_99307915_C34F_D24B_41D0_269F141116A7_en.mp4
+videolevel_281C49AA_1C70_D867_4140_A2EA63FE374A.posterURL = media/video_99307915_C34F_D24B_41D0_269F141116A7_poster_en.jpg
+
+## Popup
+
+### Body
+htmlText_C08921FD_D0F0_F4BB_41D9_4C7BBFA29289.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:16px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:16px;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+
+### Title
+window_C088D201_D0F0_F74B_41D8_1AEDD0042C68.title = Midmarket Summit 2022 - inscrivez-vous ici !
+window_C081E1ED_D0F0_F4DB_41E7_F4188A4846A6.title = Replay du Forum CX 2022
+window_C08061F0_D0F0_F4C9_41D0_4B12BA90BA83.title = Replay du Forum HXM 2022
+
+## Skin
+
+### Image
+Image_A046A1BE_89D6_1395_41DD_178B48905026.url = skin/Image_A046A1BE_89D6_1395_41DD_178B48905026_en.png
+
+### Multiline Text
+HTMLText_AD1589A1_892E_33AE_41B4_6FC5F2AA6EEE.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:3.6065573770491803vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:3.61vmin;font-family:'BentonSans Regular';">Donnez-nous votre avis !</SPAN></SPAN></DIV></div>
+
+### Tooltip
+IconButton_31434A47_1C7F_B82E_419D_2A2C2EB85EF7.toolTip = Faites défiler ou cliquez ici pour dézoomer
+IconButton_31433A47_1C7F_B82E_41B9_1DA12E0FD137.toolTip = Faites défiler ou cliquez ici pour zoomer
+CloseButton_A992E9C3_897A_13F2_41C2_924F60B6779C.toolTip = Fermer
+Container_31430A46_1C7F_B82E_4181_9A052BB1A306.toolTip = Scroll or click here to zoom in and out
+HTMLText_AD1589A1_892E_33AE_41B4_6FC5F2AA6EEE.toolTip = Send your feedback
+
+## Tour
+
+### Description
+
+### Title
+tour.name = FRLobby Live Day 
